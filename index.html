@@ -1,11 +1,123 @@
-<html>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toast CMU - ขนมปังปิ้ง มช.</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Sarabun', sans-serif;
+      background-color: #f5f3ef; /* โทนออฟไวท์ */
+      color: #3e2f1c; /* น้ำตาลเข้ม */
+    }
 
+    header {
+      background-color: #c8b49b; /* น้ำตาลนม */
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    header img {
+      height: 80px;
+    }
+
+    header h1 {
+      margin-top: 10px;
+      font-size: 2em;
+    }
+
+    .advert {
+      background-color: #e7dccf; /* น้ำตาลอ่อน */
+      padding: 15px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px 20px;
+    }
+
+    .product {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      width: 300px;
+      text-align: center;
+      padding: 20px;
+      transition: transform 0.2s;
+    }
+
+    .product:hover {
+      transform: scale(1.03);
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .product h2 {
+      margin: 15px 0 10px;
+      font-size: 1.2em;
+      color: #5b4636; /* หัวข้อสีน้ำตาลกาแฟ */
+    }
+
+    .product p {
+      margin: 0;
+      font-size: 1em;
+      color: #7b6d5c; /* น้ำตาลหม่น */
+    }
+
+    footer {
+      background-color: #c8b49b;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      color: white;
+    }
+  </style>
+</head>
 <body>
 
-<h1>Your Name Here</h1>
+  <header>
+    <img src="logo.png" alt="โลโก้ร้าน Toast CMU">
+    <h1>Toast CMU - ขนมปังปิ้ง มช.</h1>
+  </header>
 
-<h2> Your student code here</h2>
+  <div class="advert">
+    🎉 โปรโมชันนักศึกษา! ซื้อ 2 แถม 1 ถึงสิ้นเดือนนี้เท่านั้น 🎉
+  </div>
+
+  <section class="products">
+    <div class="product">
+      <img src="bread1.jpg" alt="ขนมปังเนยน้ำตาล">
+      <h2>ขนมปังเนยน้ำตาล</h2>
+      <p>ราคา: 25 บาท</p>
+    </div>
+    <div class="product">
+      <img src="bread2.jpg" alt="ขนมปังปิ้งช็อกโกแลต">
+      <h2>ขนมปังช็อกโกแลต</h2>
+      <p>ราคา: 30 บาท</p>
+    </div>
+    <div class="product">
+      <img src="bread3.jpg" alt="ขนมปังชีสยืด">
+      <h2>ขนมปังชีสยืด</h2>
+      <p>ราคา: 35 บาท</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Toast CMU | พบกันที่ มช. ทุกวันจันทร์-ศุกร์ เวลา 10:00-16:00
+  </footer>
 
 </body>
-
 </html>
+
+
